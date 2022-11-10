@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>my cab</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css"href="../style/registyle.css">
+ 
+   
+ </head>
+   <body>
+   
+   <div class="header">
+   <div>
+	<img src="../images/logo.png" alt="logo" class="logo">
+	</div>
+	<div class="buttons">
+	<button class="button">Login</button>
+	<button class="button"><a href="promo.html">Sign up</a></button>
+	</div>
+    </div>
+	
+	<div id="navbar">
+      <a href="Home.html">Home</a>
+      <a href="book a ride.html">Book a Ride</a>
+      <a href="Contact Us.html">Contact us</a>
+	  <a href="#">About us</a>
+	  <a href="join.html">Join with us</a>
+	  
+	  <a href="Carrer Page.html">Carriers</a>
+	  <a href="promo.html">Promo</a>
+	  <a href="feedback.html">Feedback</a>
+	  </div>
+	  
+	
+	
+    <div class="banner-image">
+     <div class="banner-text">
+     <h1 style="font-size:50px">Create your Account</h1>
+    </div>
+      </div>
+    
+       <h1 class="title"></h1><br>
+<table class="table">
+<td>
+<h2 align="center">Registration Form</h2><br>
+<form  action="register.php" target="_self" method="POST" onsubmit="return checkPasswords()">
+	<label> First Name</label> <br>
+	<input type="text" id="fname" name="fname" style="width:100%;" placeholder="Enter your first name here" required ><br><br>
+	<label> Last Name</label> <br>
+	<input type="text" id="lname" name="lname" style="width:100%;" placeholder="Enter your last name here" required  ><br><br>
+	
+	
+	Gender<br>
+	<input type="radio" id="gender" name="gender" checked>Male
+	<input type="radio" id="gender" name="gender" > Female<br><br>
+	<label for="birthday">Birthday:</label><br>
+	<input type="date" id="bday" name="birthday"><br><br>
+	<label> Email Address</label> <br>
+	<input type="email" id="emailAdd" name="emailAdd" style="width:100%;" pattern="[a-zA-Z0-9.-+%]+@[a-zA-Z0-9]+\.[a-z]{2,3}" placeholder="Enter valid email address here" required ><br><br>
+	
+	<label> Username</label> <br>
+	<input type="text" id="lname" name="lname" style="width:100%;" placeholder="Enter Username" required  ><br><br>
+	Password<br>
+	<input type="password" id="pswrd" name="pswrd" style="width:100%;" pattern="[a-zA-Z0-9]{5,10}" required><br><br>
+	Confirm Password<br>
+	<input type="password" id="rpswrd" name="rpswrd" style="width:100%;" required><br><br>
+	
+	Accept privacy policy terms
+	<input type="checkbox" id="policy" name="policy" required onclick ="enableButton()"><br><br>
+	
+	<input type="submit" id="btn1" name="btn1" style="width:100%"  value=" SIGN UP FREE"  disabled ><br><br>
+	
+	<p align="center">Have an Account?<a class="logincolor" href="login.html">Log in</a></P><br>
+	
+</form>
+</td>
+</table>
+	   <br>
+	   
+     
+
+   <footer class="footer">
+    
+	<a href="https://google.com">Privacy Policy</a>&nbsp&nbsp		
+	<a href="https://google.com">Terms & Conditions    </a>&nbsp&nbsp		
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp
+       
+	     <hr class="bottom">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<a href="https://www.facebook.com/" class="fa fa-facebook "></a>
+	<a href="https://twitter.com/" class="fa fa-twitter "></a>
+	<a href="https://lk.linkedin.com/" class="fa fa-linkedin "></a>
+	<a href="https://www.youtube.com/" class="fa fa-youtube "></a>
+	<a href="https://www.instagram.com/" class="fa fa-instagram "></a>
+	<br/><br/>
+   </footer>
+     </body>
+</html>

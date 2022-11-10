@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>my cab</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css"href="../style/feedbackstyle.css">
+ 
+  
+ </head>
+   <body>
+   
+   <div class="header">
+   <div>
+	<img src="../images/logo.png" alt="logo" class="logo">
+	</div>
+	<div class="buttons">
+	<button class="button">Login</button>
+	<button class="button">Sign up</button>
+	</div>
+    </div>
+	
+	<div id="navbar">
+      <a href="home.php">Home</a>
+      <a href="book a ride.html">Book a Ride</a>
+      <a href="Contact Us.html">Contact us</a>
+	  <a href="">About us</a>
+	  <a href="join.html">Join with us</a>
+	  
+	  <a href="Carrer Page.html">Carriers</a>
+	  <a href="promo.html">Promo</a>
+	  <a class="active" href="#">Feedback</a>
+	  </div>
+	  
+	
+	
+    <div class="banner-image">
+     <div class="banner-text">
+     <h1 style="font-size:50px">we value your feedback</h1>
+    </div>
+      </div>
+
+  
+     <div class="bg-img">
+      <form class="container" method="POST" action="submitFeedback.php">
+       <h1 style="color:white">Feedback</h1>
+
+          <label for="name" style="color:white"><b>Your name</b></label>
+          <input type="text" placeholder="Enter Your name" name="feedback_name" required>
+		  
+		  <label for="Email" style="color:white"><b>E-mail</b></label>
+          <input type="text" placeholder="Your E-mail"name="feedback_email" required>
+
+          <label for="text" style="color:white"><b>Describe your feedback</b></label>
+          
+		  
+		  <textarea name="feedback_describe" for="text" placeholder="Describe...."></textarea>
+
+           <button style= "color: black" ;type="submit" class="btn" value="feedback">Submit</button>
+          </form>
+         </div>
+		 
+		 <button style="position:relative; left:83%;border: none;color: black;padding: 12px 22px;font-size: 16px; 
+		 cursor: pointer;background-color: gold;"><a href="feedback_review.php"> Review customer feedback</a></button>
+
+   <footer class="footer">
+    
+	<a href="https://google.com">Privacy Policy</a>&nbsp&nbsp		
+	<a href="https://google.com">Terms & Conditions    </a>&nbsp&nbsp		
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp
+       
+	     <hr class="bottom">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<a href="https://www.facebook.com/" class="fa fa-facebook "></a>
+	<a href="https://twitter.com/" class="fa fa-twitter "></a>
+	<a href="https://lk.linkedin.com/" class="fa fa-linkedin "></a>
+	<a href="https://www.youtube.com/" class="fa fa-youtube "></a>
+	<a href="https://www.instagram.com/" class="fa fa-instagram "></a>
+	<br/><br/>
+   </footer>
+     </body>
+</html>

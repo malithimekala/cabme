@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>my cab</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css"href="../style/promostyle.css">
+ 
+   
+ </head>
+   <body>
+   
+   <div class="header">
+   <div>
+	<img src="../images/logo.png" alt="logo" class="logo">
+	</div>
+	<div class="buttons">
+	<button class="button">Login</button>
+	<button class="button"><a href="regi.html">Sign up</a></button>
+	</div>
+    </div>
+	
+	<div id="navbar">
+      <a href="Home.php">Home</a>
+      <a href="book a ride.html">Book a Ride</a>
+      <a href="Contact Us.html">Contact us</a>
+	  <a href="">About us</a>
+	  <a href="join.html">Join with us</a>
+	  
+	  <a href="Carrer Page.html">Carriers</a>
+	  <a class="active"href="promo.html">Promo</a>
+	  <a "feedback.html">Feedback</a>
+	  </div>
+	  
+	
+	
+    <div class="banner-image">
+     <div class="banner-text">
+     <h1 style="font-size:50px">Ride with us with 50% OFF</h1>
+    </div>
+      </div>
+
+        <div class="cover">
+	
+		    <div class = "promo-form">
+		<div class="form">
+		<center>
+	<form id="contact-form"method="post"action= "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" enctype = "multipart/form-data">
+	<input name="name"type="text"class="form-control"placeholder="promo code"required>
+	<br>
+	<input name="email"type="email" class="form-control"placeholder="your email"required><br>
+
+	
+		<input type="submit" class="btn" name= "btn"value="Submit">
+     </center>
+
+   <footer class="footer" style="width:230%">
+    
+	<a href="https://google.com">Privacy Policy</a>&nbsp&nbsp		
+	<a href="https://google.com">Terms & Conditions    </a>&nbsp&nbsp		
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp
+       
+	     <hr class="bottom">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<a href="https://www.facebook.com/" class="fa fa-facebook "></a>
+	<a href="https://twitter.com/" class="fa fa-twitter "></a>
+	<a href="https://lk.linkedin.com/" class="fa fa-linkedin "></a>
+	<a href="https://www.youtube.com/" class="fa fa-youtube "></a>
+	<a href="https://www.instagram.com/" class="fa fa-instagram "></a>
+	<br/><br/>
+   </footer>
+     </body>
+</html>

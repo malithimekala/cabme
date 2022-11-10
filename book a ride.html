@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>book a ride</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" type="text/css" href="../css/book.css">
+	  <link rel="stylesheet" type="text/css" href="../css/1.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="../js/book.js"></script>
+
+
+</head>
+<body>
+
+<div class="header">
+    <div>
+	<img src="../images/logo.png" alt="logo" class="logo">
+    </div>
+	<div class="buttons">
+	<button class="button">Login</button>
+	<button class="button">Sign up</button>
+	</div>
+    </div>
+	
+	
+<!--navi-->	
+<div id="navbar">
+      <a href="Home.php">Home</a>
+      <a class="active" href="#">Book a Ride</a>
+      <a href="Contact Us.html">Contact us</a>
+	  <a href="">About us</a>
+	  <a href="join.html">Join with us</a>
+	  
+	  <a href="Carrer Page.html">Carriers</a>
+	  <a href="promo.html">Promo</a>
+	  <a href="feedback.html">Feedback</a>
+	  </div>	
+
+<img class="bgphoto" src="../images/p1.jpg">
+
+<!--form-->
+<form class="form" method="POST"   action="submitRide.php">
+<center><h1>Book Your Ride</h1></center>
+
+<input type="radio" id="rad" name="rad" checked>One way trip
+<input type="radio" id="rad" name="rad">Return trip<br><br>
+
+
+Pick-up location<br>
+<input type="text" name="text1" id="plocation" " placeholder="eg:kandy" required><br><br>
+
+
+Drop Location<br>
+<input type="text" name="text2" id="dlocation" " placeholder="eg:kandy" required><br><br>
+
+Pick-up Date<br>
+<input type="date" name="text3" id="date" required><br><br>
+
+Pick-up time (ex: 01:00 PM)<br>
+<input type="time" name="text4" id="time" required><br><br>
+    
+
+<br>
+<input type="submit" id="btn1" value="submit" >
+<input type="reset" id="btn2" value="reset">
+
+
+
+
+
+</form>
+
+<!--Footer-->
+<footer class="footer">
+    
+	<a href="https://google.com">Privacy Policy</a>&nbsp&nbsp		
+	<a href="https://google.com">Terms & Conditions    </a>&nbsp&nbsp		
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp	
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp	
+       
+	     
+		 
+	<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/" class="fa fa-twitter"></a>
+	<a href="https://lk.linkedin.com/" class="fa fa-linkedin"></a>
+	<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+	<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+	<br><br>
+	<hr class="bottom">
+	<br><br>
+	© Copyright © 2020 - CAB ME (Pvt) Ltd. All rights reserved.
+	
+   </footer>
+    
+
+</body>
+</html>

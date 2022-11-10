@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> Career Registration </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css"href="../style/style.css">
+   	  <link rel="stylesheet" href="../style/Register.css">
+	  	 <link rel="stylesheet" href="../style/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<script type="text/javascript" src="../js/Register.js"> </script>
+ 
+   
+ </head>
+   <body>
+   
+   <div class="header">
+	<img src="../images/logo.png" alt="logo" class="logo">
+    </div>
+	
+	    <div class="dropdown" style="float:right;">
+         <button class="dropbtn"> ☰ </button>
+          <div class="dropdown-content">
+            <a href="#">Log in</a>
+            <a href="#">Sign up</a>
+            <a href="#">My account</a>
+          </div>
+         </div>
+	
+	<div id="navbar">
+      <a class="active" href="Home.php">Home</a>
+      <a href="book a ride.html">Book a Ride</a>
+      <a href="Contact Us.html">Contact us</a>
+	  <a href="">About us</a>
+	  <a href="join.html">Join with us</a>
+	  
+	  <a href="Carrer Page.html ">Careers</a>
+	  <a href="promo.html">Promo</a>
+	  <a href="feedback.html">Feedback</a>
+	  </div>
+	  
+	
+	
+    <div class="banner-image">
+     <div class="banner-text">
+     <h1 style="font-size:50px">Ride with us</h1>
+    </div>
+      </div>
+	  
+	  <div class="mainpage">
+	<center>
+		
+			<br>
+		<div class="f1">
+		
+			<form target="_self" method="POST" action="submit_career_registration.php">
+				<div class="inputWithIcon">
+					<input type="text" id="fname"   name="c_name"   style = "width:94% ; height:45px" placeholder="First Name" required> <i class="fa fa-user" aria-hidden="true"></i>
+					<br> <br>
+				</div>
+				
+				<div class="inputWithIcon2">
+					<input type="tel" id="tel"   name="c_telephone"  style = "width:94% ; height:45px" placeholder="Mobile No" required> <i class="fa fa-mobile" aria-hidden="true"></i>
+					<br> <br>
+				</div>
+				
+				<div class="inputWithIcon3">
+				<input type="email" id="emailad"   name="email"   style = "width:94%; height:45px" pattern="[a-zA-Z0-9.%_+-]+@[a-z0-9]+\.[a-z]{2,3}" placeholder="Email" required> <i class="fa fa-envelope" aria-hidden="true"></i>
+				<br> <br>
+				</div>
+				
+				
+				
+				
+				
+					<select class="cr" name="cartype">
+					
+					<option value="Senior Test Automation Engineer "> Senior Test Automation Engineer </option>
+					<option value="Senior Software Engineer "> Senior Software Engineer </option>
+					<option value="Software Technical Lea"> Software Technical Lead </option>
+					<option value="Software Engineer Java"> Software Engineer Java </option>
+					<option value="Senior Architect"> Senior Architect </option>
+					<option value="DevOps Engineer"> DevOps Engineer </option>
+
+				
+				</select>
+				
+				<br> <br>
+				
+				<div class="recap">
+						<div class="rc1">
+							<input type="checkbox" id="policy" name="policy"  style="width:20px; height:20px" required onclick="enableButton()"> I'm not a robot<br> <br>
+						</div>
+						<div class="rc2">
+							<img src="../images/recap.png" class="rc" >
+						</div>
+				</div>
+				
+				<input type="submit" id="sbtn1" name="btn1" value="submit" disabled> <br>
+			</form>
+		</div>
+	</center>
+	</div>
+
+     <button style="position:relative; left:83%;border: none;color: black;padding: 12px 22px;font-size: 16px; 
+		 cursor: pointer;background-color: gold;"><a href="career_registration_review.php"> Review customer details</a></button>
+    
+
+
+   <footer class="footer">
+    
+	<a href="https://google.com">Privacy Policy</a>&nbsp&nbsp		
+	<a href="https://google.com">Terms & Conditions    </a>&nbsp&nbsp		
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp	
+	<a href="https://google.com">Contact us</a>&nbsp&nbsp	
+       
+	     <hr class="bottom">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<a href="https://www.facebook.com/" class="fa fa-facebook "></a>
+	<a href="https://twitter.com/" class="fa fa-twitter "></a>
+	<a href="https://lk.linkedin.com/" class="fa fa-linkedin "></a>
+	<a href="https://www.youtube.com/" class="fa fa-youtube "></a>
+	<a href="https://www.instagram.com/" class="fa fa-instagram "></a>
+	<br/><br/>
+   </footer>
+     </body>
+</html>
